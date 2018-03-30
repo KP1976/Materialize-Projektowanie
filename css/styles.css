@@ -1,8 +1,8 @@
-body {
+.header {
   background: url("../img/background.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  min-height: 300px;
 }
 
 nav {
@@ -11,4 +11,11 @@ nav {
 
 .active {
   font-weight: bold;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  opacity: 0;
 }
